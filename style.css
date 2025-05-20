@@ -1,0 +1,247 @@
+.header {
+    background-color: #1F2937;
+    padding: 20px 0;
+}
+
+.headname{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: larger;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(218, 214, 214);
+    font-family: 'roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logo , .container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.right-links ul {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.text h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.text p {
+    color: rgb(208, 205, 205);
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background-color: #3B82F6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: larger;
+    width: 150px;
+    height: min-content;
+}
+
+.container1 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text {
+    max-width: 400px
+}
+
+.image {
+    background-color: rgba(194, 198, 201, 0.559);
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-bottom: auto;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+
+.text2 h1 {
+    color: #1F2937;
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    font-style: bold;
+}
+
+.small-box {
+    background-color: #ffffff;
+    border-color: #3B82F6;
+    border-width: 4px;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+
+
+}
+
+.subtext {
+    padding-top: 8px;
+    padding-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(129, 125, 125);
+    font-weight: 400;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.small-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3px;
+    gap: 50px;
+
+    max-width: 1200px;         /* Limit container width */
+    margin: 0 auto;            /* Center the container */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+  
+}
+.container2 {
+    height: 520px;
+}
+
+.container3 {
+    background-color: #e5e7eb;
+    padding: 80px 20px; /* generous padding for spacing */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.maintxt {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    color: #54575a;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.small-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #484b4e;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: left;
+    align-self: flex-end;
+    margin-right: 100px;
+}
+
+
+.container4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 300px;
+}
+
+.ad {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B82F6;
+    width: 1250px;
+    height: 120px;
+    margin: auto;
+    border-radius: 20px;
+
+}
+
+.button2 button {
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 3px;
+    height: min-content;
+    width: 150px;
+}
+.footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 48px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.headtxt {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+    margin-right: 550px;
+}
+
+.bottomtxt {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(222, 217, 217);
+    margin-right:390px;
+}
+
+.smallcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
